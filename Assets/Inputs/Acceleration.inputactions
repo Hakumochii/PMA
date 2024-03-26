@@ -1,0 +1,34 @@
+{
+    "name": "CollectAcceleration",
+    "maps": [
+        {
+            "name": "AcelData",
+            "id": "722dded1-2e58-4ea6-8c8d-e2ff4eda4dd7",
+            "actions": [
+                {
+                    "name": "Acceleration",
+                    "type": "Value",
+                    "id": "cf2b270e-d690-4a6c-86b0-edc30c88c1d8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "77d8b120-dfab-4e34-a4ec-9232223d2610",
+                    "path": "<Accelerometer>/acceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Acceleration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
