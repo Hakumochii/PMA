@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using TMPro;
 
-public class CollectSensorData : MonoBehaviour
+public class InputManager : MonoBehaviour
 {
     private PlayerInput playerInput;
     private InputAction accelerationAction;
